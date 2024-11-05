@@ -1,6 +1,7 @@
 package com.example.git_practice;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,8 +12,8 @@ public class GitController {
         return "git";
     }
 
-    @GetMapping("/git")
+    @PatchMapping("/git")
     public String get() {
-        return "get";
+        return "patch";
     }
 }
