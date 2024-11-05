@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GitController {
     @PostMapping("/git")
-    public String git() {
+    public String post() {
         return "git";
     }
 }
